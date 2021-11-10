@@ -25,6 +25,8 @@ const StyledContainer = styled('div')(({ theme }) => ({
   paddingTop: theme.spacing(7),
   backgroundColor: theme.palette.primary.main,
   color: 'white',
+  position: 'sticky',
+  top: 0,
   [theme.breakpoints.up('sm')]: {
     backgroundColor: 'white',
     color: '#555',

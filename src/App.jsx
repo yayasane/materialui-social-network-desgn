@@ -3,10 +3,11 @@ import LeftBar from './components/LeftBar'
 import Feed from './components/Feed'
 import Rightbar from './components/RightBar'
 import NavBar from './components/NavBar'
+import Add from './components/Add'
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
       <Grid container>
         <Grid item sm={2} xs={2}>
@@ -19,7 +20,8 @@ function App() {
           <Rightbar />{' '}
         </Grid>
       </Grid>
-    </div>
+      <Add />
+    </>
   )
 }
 
