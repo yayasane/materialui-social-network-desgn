@@ -1,8 +1,11 @@
-import { makeStyles } from '@mui/styles'
-const useStyles = makeStyles((theme) => ({}))
+import { Container, styled } from '@mui/material'
+
+const StyledContainer = styled(Container)(({ theme }) => ({
+  paddingTop: theme.spacing(10),
+}))
+
 function Feed() {
-  const classes = useStyles()
-  return <div></div>
+  return <StyledContainer>Feed</StyledContainer>
 }
 
 export default Feed
