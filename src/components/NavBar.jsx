@@ -108,9 +108,9 @@ function NavBar() {
             <MenuIcon />
           </IconButton>
           {matches ? (
-            <Typography variant="h6">Veli SCIN</Typography>
+            <Typography variant="h6">MyNetwork</Typography>
           ) : (
-            <Typography variant="h6">Veli</Typography>
+            <Typography variant="h6">MN</Typography>
           )}
         </Box>
         <Search opensearch={openSearch ? 1 : 0}>
